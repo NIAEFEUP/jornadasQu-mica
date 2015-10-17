@@ -340,7 +340,7 @@ ul.banner-social-buttons {
 
 footer {
     padding:  0;
-    background-color:black;
+    background-color:#444;
 }
 
 footer p {
@@ -515,7 +515,7 @@ nav.navbar.navbar-custom.navbar-fixed-top{
 }
 
 nav.navbar.navbar-custom.navbar-fixed-top.top-nav-collapse{
-  background-color:black;
+  background-color:#333;
   background-image:none;
   border-bottom-style: solid;
 }
@@ -612,9 +612,9 @@ th.eventTag header{
 }
 
 #sponsors, #sponsors3, #sponseres2{
-  background-color: #222;
+  background-color: #444;
   padding-top:50px;
-  padding-bottom:50px;
+  padding-bottom:0px;
 
 }
 
