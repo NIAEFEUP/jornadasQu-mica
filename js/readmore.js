@@ -134,12 +134,7 @@
     },
 
     setBoxHeight: function(element) {
-      var el = element.clone().css({'height': 'auto', 'width': element.width(), 'overflow': 'hidden'}).insertAfter(element),
-          height = el[0].scrollHeight;
-
-      el.remove();
-
-      element.data('expandedHeight', height);
+      element.data('expandedHeight', element[0].scrollHeight);
     },
 
     resizeBoxes: function() {
