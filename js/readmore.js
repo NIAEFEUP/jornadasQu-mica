@@ -135,7 +135,7 @@
 
     setBoxHeight: function(element) {
       var el = element.clone().css({'height': 'auto', 'width': element.width(), 'overflow': 'hidden'}).insertAfter(element),
-          height = el.outerHeight(true);
+          height = el[0].scrollHeight;
 
       el.remove();
 
