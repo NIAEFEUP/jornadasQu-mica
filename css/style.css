@@ -171,7 +171,12 @@ article{
   font-weight: bold;
 }
 
-#form img{
+#precos img{
   width: 80%;
   margin-bottom: 80px;
+}
+
+#precos > h2{
+  color: white;
+  padding-top: 70px;
 }
