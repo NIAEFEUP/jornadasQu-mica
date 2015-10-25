@@ -170,3 +170,13 @@ article{
 .orgcell > p:first-child{
   font-weight: bold;
 }
+
+#precos img{
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+#precos > h2{
+  color: white;
+  padding-top: 70px;
+}
