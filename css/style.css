@@ -170,3 +170,8 @@ article{
 .orgcell > p:first-child{
   font-weight: bold;
 }
+
+#form img{
+  width: 80%;
+  margin-bottom: 80px;
+}
