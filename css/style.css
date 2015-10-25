@@ -147,7 +147,7 @@ article{
 
 }
 
-.orgcell, .orgcell > img,.orgcell > p {
+.orgcell, .orgcell img, .orgcell  p {
   width:200px;
 }
 
@@ -169,4 +169,17 @@ article{
 
 .orgcell > p:first-child{
   font-weight: bold;
+}
+
+
+/*Esconder as fotos da comissão organizadora a não ser que se clique para ver*/
+
+#orgcontainer a:focus + #photos_comissao{
+  height: 972px;
+}
+
+#photos_comissao {
+  transition:all 1s ease;
+  height: 0px;
+  overflow: hidden;
 }
