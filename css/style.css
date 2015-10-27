@@ -147,7 +147,7 @@ article{
 
 }
 
-.orgcell, .orgcell > img,.orgcell > p {
+.orgcell, .orgcell img, .orgcell  p {
   width:200px;
 }
 
