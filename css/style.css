@@ -175,3 +175,11 @@ article{
   height:50vh;
   vertical-align: center;
 }
+
+@font-face {
+  font-family: 'rabiscos';
+  src: url('../fonts/Sketch_Block.ttf') format('rabisco1');
+}
+.rabiscos{
+  font-family:'rabiscos';
+}

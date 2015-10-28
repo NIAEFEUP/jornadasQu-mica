@@ -72,13 +72,7 @@ a:focus {
 .light {
     font-weight: 400;
 }
-@font-face {
-  font-family: 'rabiscos';
-  src: url('../fonts/Sketch_Block.ttf') format('rabisco1');
-}
-.rabiscos{
-  font-family:'rabiscos';
-}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
