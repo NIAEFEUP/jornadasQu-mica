@@ -17,7 +17,7 @@ body{
   text-transform:none;
 }
 .light{
-  color:#993016;
+  color:BLACK;
 }
 
 .light:hover{
@@ -26,6 +26,7 @@ body{
 .container{
   padding-left: 0px;
   padding-right: 0px;
+  font-size:24px !important;
 }
 
 div.intro-body {
@@ -178,8 +179,18 @@ article{
 
 @font-face {
   font-family: 'rabiscos';
-  src: url('../fonts/Sketch_Block.ttf') format('rabisco1');
+  src: url('../fonts/Sketch College.ttf') format('truetype');
 }
 .rabiscos{
   font-family:'rabiscos';
+}
+
+#jq15{
+  padding-top:10px !important;
+  font-size: 60px;
+  vertical-align: text-center !important;
+}
+
+#jq15:hover{
+  color:#993016;
 }
