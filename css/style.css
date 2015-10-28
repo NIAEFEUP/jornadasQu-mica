@@ -170,3 +170,8 @@ article{
 .orgcell > p:first-child{
   font-weight: bold;
 }
+
+#capa{
+  height:50vh;
+  vertical-align: center;
+}
