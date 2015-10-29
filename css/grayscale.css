@@ -194,8 +194,8 @@ a:focus {
     padding: 7px 16px;
     border-radius: 35px;
     font-size: 40px;
-    color: #993016;
-    background: #fff;
+    color: #fff;
+    background: #993016;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -426,7 +426,6 @@ tr{
 
 strong{
   text-align:left;
-  background-color:#333;
   margin-left: 10px;
   padding-right:5px;
   padding-left:5px;
@@ -446,19 +445,15 @@ caption strong{
 }
 
 th.eventTag{
-  padding: 10px;
-  padding-right:0px;
+  vertical-align: text-top;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   margin:10px;
-  color:#333;
+  color:white;
   width:20%;
 
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.81) 0%, rgba(255,255,255,0.81) 49%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.81)), color-stop(49%,rgba(255,255,255,0.81)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 49%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 49%,rgba(255,255,255,0) 100%); /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 49%,rgba(255,255,255,0) 100%); /* IE10+ */
-  background: radial-gradient(ellipse at center, rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.81) 49%,rgba(255,255,255,0) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 th.eventTag section.titulo{
@@ -483,7 +478,8 @@ th{
 
 
 div.download-section h2{
-  color: #333;
+  color: white;
+  text-shadow:-1px 1px 3px #0A0A0A;
 }
 
 .programa tbody{
@@ -606,7 +602,9 @@ div.row #temporario p{
 
 th.eventTag header{
   color: #993016;
-  font-size:10px;
+  background-color: #b4b0b1;
+  font-size: 10px;
+  padding-left: 5px;
 }
 
 #sponsors, #sponsors3, #sponseres2{

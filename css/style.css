@@ -107,7 +107,7 @@ div.intro-body {
 }
 
 #news{
-  background-image: url("../img/545.jpg");
+  background-image: url("../img/feup_0.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -193,4 +193,8 @@ article{
 
 #jq15:hover{
   color:#993016;
+}
+
+caption{
+  color: white !important;
 }
